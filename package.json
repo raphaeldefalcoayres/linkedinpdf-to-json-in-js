@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-pdf-to-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "date-fns": "^2.27.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
