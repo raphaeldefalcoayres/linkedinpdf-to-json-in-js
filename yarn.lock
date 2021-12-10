@@ -312,6 +312,18 @@ has-yarn@^2.1.0:
   resolved "https://registry.yarnpkg.com/has-yarn/-/has-yarn-2.1.0.tgz#137e11354a7b5bf11aa5cb649cf0c6f3ff2b2e77"
   integrity sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==
 
+holidays-calendar-brazil@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/holidays-calendar-brazil/-/holidays-calendar-brazil-1.0.2.tgz#b27b7ece82319bb9c2b4fe816c0080f048490fe8"
+  integrity sha1-snt+zoIxm7nCtP6BbACA8EhJD+g=
+  dependencies:
+    holidays-calendar "^1.0"
+
+holidays-calendar@^1.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/holidays-calendar/-/holidays-calendar-1.0.2.tgz#59f3f1e4b4e8baeb6da842af6e81dd47dc0823a0"
+  integrity sha1-WfPx5LTouuttqEKvboHdR9wII6A=
+
 http-cache-semantics@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"

@@ -3,6 +3,11 @@ const fs = require('fs')
 const path = require('path')
 const pathToPdf = path.join('Profile.pdf')
 const pdf = require('pdf-parse')
+const { workinDaysByYear } = require('./utils')
+
+const { workDays, holidayDays, holidayDaysNoWeekend } = workinDaysByYear(2021)
+
+console.log({ workDays })
 
 const stringContainsNumber = string => {
   let matchPattern = string.match(/\d+/g)
@@ -55,7 +60,7 @@ const linkedinPdfToJson = async () => {
   }, 0)
 
   const yearsOfExperience = monthsToYears(monthsOfExperience)
-  const supposedWorkingDaysPerYear = 240
+  const supposedWorkingDaysPerYear = workDays
   const supposedAverageHoursWorkedPerDay = 8
   const supposedHoursOfExperience = yearsOfExperience * supposedWorkingDaysPerYear * supposedAverageHoursWorkedPerDay
 
